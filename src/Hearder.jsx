@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import StorageIcon from "@material-ui/icons/Storage";
+import logoimg from './png/my logo.png'
 let Header = () => {
   let to = () => {
     document.querySelector("header nav ul").classList.toggle("active");
@@ -11,7 +12,7 @@ let Header = () => {
           <div className="col-11 mx-auto">
             <header>
               <h2 className="logo">
-                <a href="/"><img src="png/my logo.png" className="img-fluid"/></a>
+                <a href="/"><img src={logoimg} className="img-fluid"/></a>
               </h2>
               <nav>
                 <div className="toggle" onClick={to}>

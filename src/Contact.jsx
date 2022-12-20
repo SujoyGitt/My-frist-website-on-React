@@ -2,13 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-//  let nevigate = useNavigate();
-//   let gotohome = ()=>{
-//     nevigate('/')
-//   }
-//   let goback = ()=>{
-//     nevigate(-1);
-//   }
+let nevigate = useNavigate();
+
 let [data,setdata] = useState({
   fullname:"",
   email:"",
@@ -30,7 +25,7 @@ alert(`My name is : ${data.fullname} ,My email is : ${data.email} , My phone no.
       <h1 className="text-center text-info">Contact US</h1>
       <div className="container contact_div">
         <div className="row">
-          <div className="col-md-6 col-10 mx-auto">
+          <div className="col-md-6 col-11 mx-auto contact">
             <form onSubmit={fetchdata}>
               <div className="mb-3">
                 <label form="text" className="form-label">Fullname :</label>
@@ -54,6 +49,7 @@ alert(`My name is : ${data.fullname} ,My email is : ${data.email} , My phone no.
             </form>
           </div>
         </div>
+        <button className="btn btn-info text-white mx-3 my-0" onClick={()=>{nevigate('/')}}>⏮️ Goto Home </button> 
       </div>
     </> 
   );

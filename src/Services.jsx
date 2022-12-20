@@ -1,7 +1,8 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Card from "./card";
 import Sdata from "./Sdata";
 const Services = () => {
+  let nevigate = useNavigate();
   return (
     <>
       <div className="services">
@@ -20,6 +21,7 @@ const Services = () => {
           </div>
         </div>
           <NavLink to='/about' className='btn btn-info text-white my-4'>➡️ About us ↪️</NavLink>
+          <button className="btn btn-info text-white mx-3 my-0" onClick={()=>{nevigate(-1)}}>⏮️ Go Back </button> 
       </div>
     </>
   );

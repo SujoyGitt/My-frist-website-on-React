@@ -17,18 +17,19 @@ const SearchResult = (props) => {
     <>
       <div className="imgbox">
         
-    <img src={img} alt="Search" />
-        <img src={img1} alt="Search" />
-        <img src={img2} alt="Search" />
-        <img src={img3} alt="Search" />
-        <img src={img4} alt="Search" />
-        <img src={img5} alt="Search" />
-        <img src={img6} alt="Search" />
-        <img src={img7} alt="Search" />
-        <img src={img8} alt="Search" />
-        <img src={img9} alt="Search" />
-        <img src={img10} alt="Search" />
-        <img src={img11} alt="Search" />
+    
+        <a href={img} target='blank'><img src={img} alt="Search" /></a>
+        <a href={img1} target='blank'><img src={img1} alt="Search" /></a>
+        <a href={img2} target='blank'><img src={img2} alt="Search" /></a>
+        <a href={img3} target='blank'><img src={img3} alt="Search" /></a>
+        <a href={img4} target='blank'><img src={img4} alt="Search" /></a>
+        <a href={img5} target='blank'><img src={img5} alt="Search" /></a>
+        <a href={img6} target='blank'><img src={img6} alt="Search" /></a>
+        <a href={img7} target='blank'><img src={img7} alt="Search" /></a>
+        <a href={img8} target='blank'><img src={img8} alt="Search" /></a>
+        <a href={img9} target='blank'><img src={img9} alt="Search" /></a>
+        <a href={img10} target='blank'><img src={img10} alt="Search" /></a>
+        <a href={img11} target='blank'><img src={img11} alt="Search" /></a>
       </div>
     </>
   );

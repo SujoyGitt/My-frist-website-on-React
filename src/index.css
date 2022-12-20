@@ -110,14 +110,14 @@ header a:hover {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.imgbox a{
+  display:block;
+}
 .setStyleerror {
+  margin: auto;
   text-align: center;
-  width: 50%;
-  height: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  min-height: 80vh;
 }
 .setStyleerror h1 {
   font-size: 10rem;
@@ -157,12 +157,12 @@ header a:hover {
     top: 9%;
     right: 1%;
     transition: 0.3s;
-    opacity: 0;
+    display: none;
     padding: 10px 0px;
     z-index: 3;
   }
   .active {
-    opacity: 1;
+    display: block;
   }
   header nav ul a {
     display: block;
@@ -180,5 +180,37 @@ header a:hover {
 @media (max-width: 300px) {
   header nav ul {
     width: 150px;
+  }
+  .search input {
+    padding: 5px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 16px;
+    font-family: cursive;
+    width: 200px;
+  }
+  #home_header .btn-get-stated {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid rgb(0, 216, 216);
+    display: inline-block;
+    color: rgb(0, 196, 196);
+    transition: 0.3s;
+    cursor: pointer !important;
+    font-size: 14px;
+  }
+  #home_header .btn-get-stated:hover {
+    background: linear-gradient(teal, aqua);
+    color: whitesmoke;
+    border: 1px solid rgb(0, 167, 167);
+  }
+  .card a{
+    font-size: 14px;
+  } .card p{
+    font-size: 14px;
+  }
+  .contact{
+    width: 100%;
   }
 }
