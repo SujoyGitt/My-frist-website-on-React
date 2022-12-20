@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/My-frist-website-on-React/static/css/main.6d5f37eb.css",
+    "main.js": "/My-frist-website-on-React/static/js/main.b7866fa1.js",
+    "static/media/afternoon.jpg": "/My-frist-website-on-React/static/media/afternoon.b3c04ecedaa9d91a5ea9.jpg",
+    "index.html": "/My-frist-website-on-React/index.html",
+    "main.6d5f37eb.css.map": "/My-frist-website-on-React/static/css/main.6d5f37eb.css.map",
+    "main.b7866fa1.js.map": "/My-frist-website-on-React/static/js/main.b7866fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d5f37eb.css",
+    "static/js/main.b7866fa1.js"
+  ]
+}
