@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/My-frist-website-on-React/static/css/main.6d5f37eb.css",
-    "main.js": "/My-frist-website-on-React/static/js/main.b7866fa1.js",
+    "main.css": "/My-frist-website-on-React/static/css/main.d9f218fc.css",
+    "main.js": "/My-frist-website-on-React/static/js/main.5802174c.js",
+    "static/media/work4.jpg": "/My-frist-website-on-React/static/media/work4.2c45d57685abe334c0ac.jpg",
+    "static/media/work2.jpg": "/My-frist-website-on-React/static/media/work2.f8a24370e31a74d512a8.jpg",
+    "static/media/work1.jpg": "/My-frist-website-on-React/static/media/work1.e1471213969bb9b9fbd1.jpg",
+    "static/media/laptop.jpg": "/My-frist-website-on-React/static/media/laptop.b4faa0df76042b2a9f46.jpg",
     "static/media/afternoon.jpg": "/My-frist-website-on-React/static/media/afternoon.b3c04ecedaa9d91a5ea9.jpg",
+    "static/media/work.jpg": "/My-frist-website-on-React/static/media/work.796532e8ec93b7b719f5.jpg",
+    "static/media/pngimg3.png": "/My-frist-website-on-React/static/media/pngimg3.85cd9879ca872334ed78.png",
+    "static/media/work3.jpg": "/My-frist-website-on-React/static/media/work3.54a7f20745b5d5bda21d.jpg",
+    "static/media/My resume on november.pdf": "/My-frist-website-on-React/static/media/My resume on november.49d62838508b7035052a.pdf",
+    "static/media/my logo.png": "/My-frist-website-on-React/static/media/my logo.cc953626da602ebbdb6c.png",
+    "static/media/pngimg2.png": "/My-frist-website-on-React/static/media/pngimg2.76972d9721ec4a6d7a08.png",
     "index.html": "/My-frist-website-on-React/index.html",
-    "main.6d5f37eb.css.map": "/My-frist-website-on-React/static/css/main.6d5f37eb.css.map",
-    "main.b7866fa1.js.map": "/My-frist-website-on-React/static/js/main.b7866fa1.js.map"
+    "main.d9f218fc.css.map": "/My-frist-website-on-React/static/css/main.d9f218fc.css.map",
+    "main.5802174c.js.map": "/My-frist-website-on-React/static/js/main.5802174c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d5f37eb.css",
-    "static/js/main.b7866fa1.js"
+    "static/css/main.d9f218fc.css",
+    "static/js/main.5802174c.js"
   ]
 }
