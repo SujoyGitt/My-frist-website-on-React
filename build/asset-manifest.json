@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/My-frist-website-on-React/static/css/main.295acee3.css",
+    "main.js": "/My-frist-website-on-React/static/js/main.b8cf3396.js",
+    "static/media/Khata book.jpg": "/My-frist-website-on-React/static/media/Khata book.62e0b659b0ca5c6216c9.jpg",
+    "index.html": "/My-frist-website-on-React/index.html",
+    "main.295acee3.css.map": "/My-frist-website-on-React/static/css/main.295acee3.css.map",
+    "main.b8cf3396.js.map": "/My-frist-website-on-React/static/js/main.b8cf3396.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.295acee3.css",
+    "static/js/main.b8cf3396.js"
+  ]
+}
